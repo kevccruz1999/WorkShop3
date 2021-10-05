@@ -1,0 +1,86 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+body {
+    font-size: 1.6rem;
+    line-height: 2;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+main{
+    padding: 0rem 25rem;
+}
+h1{
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    margin-top: 5rem;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+span{
+    font-weight: bold;
+}
+p{
+    display: block;
+    margin: 0;
+}
+
+.span-red{
+    color: red;
+}
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    font-size: 3rem;
+}
+td {
+    border: 1px solid black;
+}
+
+tr td:nth-child(1){
+    font-weight: bold;
+}
+th{
+ background-color: black;
+ color: white;
+ border: 1px solid white;
+}
+
+img{
+    height: 20rem;
+    width: 20%;
+    padding: 1rem 0;
+}
+
+.img-1{
+    display: flex;
+    justify-content: flex-end;
+}
+.img-2{
+    display: flex;
+    justify-content: flex-start;
+}
+.table-container{
+    display: flex;
+    justify-content: center;
+}
+
+.blank_row
+{
+    height: 3rem;/* overwrites any other rules */
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.first-row{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
